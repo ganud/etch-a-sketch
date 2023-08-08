@@ -1,16 +1,18 @@
 .div-1 {
     display: flex;
     background-color: #131437;
-    padding:20px;
+    padding-bottom:30px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:20px
+    gap:20px;
+    flex: 1;
 }
-
 body {
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
 }
 h1, h2 {
     color: white;
@@ -20,9 +22,8 @@ h1, h2 {
 .container {
     display: flex;
     border: solid rgb(0, 0, 0) 10px;
-    width:850px;
-    height:850px;
-    flex:1;
+    width:600px;
+    height:600px;
 }
 
 .square {
@@ -47,6 +48,7 @@ h1, h2 {
     align-items: center;
     gap:20px;
     padding: 20px;
+    flex-grow: 1;
 }
 img {
     height:80px;
@@ -58,4 +60,8 @@ button {
     border-radius: 20px;
     background-color: aquamarine;
     color:darkcyan;
+}
+.big-div {
+    display: flex;
+    flex-direction: column;
 }
