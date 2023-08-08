@@ -1,15 +1,20 @@
 .container {
     display: flex;
     border: solid red 1px;
+    width:960px;
+    height:960px;
 }
 
 .square {
     aspect-ratio: 1 / 1;
-    padding: 20px;
     background-color: saddlebrown;
     border: solid black 1px;
 }
 
 .changed {
     background-color: black;
+}
+
+.line {
+    flex-grow: 1;
 }
