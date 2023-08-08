@@ -22,6 +22,7 @@ h1, h2 {
     border: solid rgb(0, 0, 0) 10px;
     width:850px;
     height:850px;
+    flex:1;
 }
 
 .square {
