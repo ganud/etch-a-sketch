@@ -20,8 +20,8 @@ h1, h2 {
 .container {
     display: flex;
     border: solid rgb(0, 0, 0) 10px;
-    width:960px;
-    height:960px;
+    width:850px;
+    height:850px;
 }
 
 .square {
@@ -45,6 +45,7 @@ h1, h2 {
     flex-wrap: wrap;
     align-items: center;
     gap:20px;
+    padding: 20px;
 }
 img {
     height:80px;
