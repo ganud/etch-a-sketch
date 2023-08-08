@@ -1,8 +1,6 @@
 .container {
     display: flex;
     border: solid red 1px;
-    align-items: center;
-    justify-content: center;
 }
 
 .square {
@@ -10,4 +8,8 @@
     padding: 20px;
     background-color: saddlebrown;
     border: solid black 1px;
+}
+
+.changed {
+    background-color: black;
 }
