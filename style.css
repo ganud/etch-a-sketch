@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    border: solid red 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    aspect-ratio: 1 / 1;
+    padding: 20px;
+    background-color: saddlebrown;
+}
