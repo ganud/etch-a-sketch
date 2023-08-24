@@ -13,8 +13,16 @@
         <h2>Draw something on this grid!</h2>
         <!-- The container holds 16 items, each with 16 squares -->
         <div class="container"></div>
+        Set size
+        <input
+        type="range"
+        id="size"
+        min="16"
+        max="100"
+        step="1"
+        value="16" />
+      <output class="size-output" for="size"></output>
         <button onclick="clearGrid()">Clear Grid</button>
-        <button onclick="setNewGrid()">New Grid</button>
     </div>
     <div class="footer">
         <h1>Site by Ganud</h1>

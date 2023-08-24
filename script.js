@@ -2,7 +2,6 @@
 // Flexbox the divs into a square grid
 // Add mousedown event listener to each square
 const container = document.getElementsByClassName("container")[0];
-let size = 16;
 
 function createGrid(size) {
     for(let j=0; j <size; j++){
@@ -24,7 +23,7 @@ function createGrid(size) {
 
 function clearGrid() {
     container.innerHTML = "";
-    createGrid(size);
+    createGrid(size.value);
 }
 function setNewGrid() {
     do{
@@ -33,5 +32,15 @@ function setNewGrid() {
     size = parseInt(size);
     clearGrid()
 }
+const size = document.querySelector("#size");
+const output = document.querySelector(".size-output");
+
+output.textContent = size.value;
+
+size.addEventListener("input", () => {
+  output.textContent = size.value;
+  clearGrid()
+});
+
 // Create a 16x16 grid
-createGrid(size);
+createGrid(size.value);

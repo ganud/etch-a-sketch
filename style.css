@@ -1,3 +1,7 @@
+* {
+    color:white
+}
+
 .div-1 {
     display: flex;
     background-color: #131437;
